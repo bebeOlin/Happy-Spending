@@ -1,4 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="false" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="19206" systemVersion="20G165" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Project" representedClassName="Project" syncable="YES">
+        <attribute name="firstBasePic" optional="YES" attributeType="String"/>
+        <attribute name="firstBaseValue" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="firstURL" optional="YES" attributeType="String"/>
+        <attribute name="firstURLTitle" optional="YES" attributeType="String"/>
+        <attribute name="homeBasePic" optional="YES" attributeType="String"/>
+        <attribute name="homeBaseValue" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="homeURL" optional="YES" attributeType="String"/>
+        <attribute name="homeURLTitle" optional="YES" attributeType="String"/>
+        <attribute name="isActive" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="peoplePic" optional="YES" attributeType="String"/>
+        <attribute name="projectValue" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="secondBasePic" optional="YES" attributeType="String"/>
+        <attribute name="secondBaseValue" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="secondURL" optional="YES" attributeType="String"/>
+        <attribute name="secondURLTitle" optional="YES" attributeType="String"/>
+        <attribute name="thirdBasePic" optional="YES" attributeType="String"/>
+        <attribute name="thirdBaseValue" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="thirdURL" optional="YES" attributeType="String"/>
+        <attribute name="thirdURLTitle" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Project" positionX="-63" positionY="-18" width="128" height="329"/>
+    </elements>
 </model>
