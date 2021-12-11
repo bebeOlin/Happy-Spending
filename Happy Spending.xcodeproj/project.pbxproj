@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06260146274C2A3E007FA9A5 /* Project+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06260144274C2A3E007FA9A5 /* Project+CoreDataClass.swift */; };
+		06260147274C2A3E007FA9A5 /* Project+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06260145274C2A3E007FA9A5 /* Project+CoreDataProperties.swift */; };
 		06DAB0862708074600222AF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DAB0852708074600222AF8 /* AppDelegate.swift */; };
 		06DAB0882708074600222AF8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DAB0872708074600222AF8 /* SceneDelegate.swift */; };
 		06DAB08A2708074600222AF8 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DAB0892708074600222AF8 /* MainViewController.swift */; };
@@ -17,11 +19,11 @@
 		06DAB09D2708090400222AF8 /* ProjectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DAB09C2708090400222AF8 /* ProjectsViewController.swift */; };
 		06DAB09F2708094300222AF8 /* UpgradesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DAB09E2708094300222AF8 /* UpgradesViewController.swift */; };
 		06DAB0A1270809BC00222AF8 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DAB0A0270809BC00222AF8 /* WebViewController.swift */; };
-		06DAB0A427080E4D00222AF8 /* Project+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DAB0A227080E4D00222AF8 /* Project+CoreDataClass.swift */; };
-		06DAB0A527080E4D00222AF8 /* Project+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DAB0A327080E4D00222AF8 /* Project+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		06260144274C2A3E007FA9A5 /* Project+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project+CoreDataClass.swift"; sourceTree = "<group>"; };
+		06260145274C2A3E007FA9A5 /* Project+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		06DAB0822708074600222AF8 /* Happy Spending.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Happy Spending.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		06DAB0852708074600222AF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		06DAB0872708074600222AF8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -34,8 +36,6 @@
 		06DAB09C2708090400222AF8 /* ProjectsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsViewController.swift; sourceTree = "<group>"; };
 		06DAB09E2708094300222AF8 /* UpgradesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpgradesViewController.swift; sourceTree = "<group>"; };
 		06DAB0A0270809BC00222AF8 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
-		06DAB0A227080E4D00222AF8 /* Project+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project+CoreDataClass.swift"; sourceTree = "<group>"; };
-		06DAB0A327080E4D00222AF8 /* Project+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +52,8 @@
 		06DAB0792708074600222AF8 = {
 			isa = PBXGroup;
 			children = (
-				06DAB0A227080E4D00222AF8 /* Project+CoreDataClass.swift */,
-				06DAB0A327080E4D00222AF8 /* Project+CoreDataProperties.swift */,
+				06260144274C2A3E007FA9A5 /* Project+CoreDataClass.swift */,
+				06260145274C2A3E007FA9A5 /* Project+CoreDataProperties.swift */,
 				06DAB0842708074600222AF8 /* Happy Spending */,
 				06DAB0832708074600222AF8 /* Products */,
 			);
@@ -157,13 +157,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				06DAB0902708074600222AF8 /* Happy_Spending.xcdatamodeld in Sources */,
-				06DAB0A427080E4D00222AF8 /* Project+CoreDataClass.swift in Sources */,
+				06260146274C2A3E007FA9A5 /* Project+CoreDataClass.swift in Sources */,
 				06DAB09D2708090400222AF8 /* ProjectsViewController.swift in Sources */,
 				06DAB08A2708074600222AF8 /* MainViewController.swift in Sources */,
 				06DAB09F2708094300222AF8 /* UpgradesViewController.swift in Sources */,
 				06DAB0A1270809BC00222AF8 /* WebViewController.swift in Sources */,
 				06DAB0862708074600222AF8 /* AppDelegate.swift in Sources */,
-				06DAB0A527080E4D00222AF8 /* Project+CoreDataProperties.swift in Sources */,
+				06260147274C2A3E007FA9A5 /* Project+CoreDataProperties.swift in Sources */,
 				06DAB0882708074600222AF8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -241,7 +241,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -296,7 +296,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -312,6 +312,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4G42J97XH2;
@@ -330,6 +331,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "games.gingerail.Happy-Spending";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -342,6 +344,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4G42J97XH2;
@@ -360,6 +363,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "games.gingerail.Happy-Spending";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
